@@ -1,0 +1,35 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto.ttf);
+}
+
+body{
+    font-family: roboto;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carte{
+    width: 800px;
+    background-color: #f0f0f0c9;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carte ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 3vh;
+}
+.carte ul li img{
+    width: 100px;
+    height: auto;
+}
+img{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+}
